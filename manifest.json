@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "AI Clipboard Assistant",
+    "version": "1.1",
+    "description": "Get AI responses for copied text.",
+    "permissions": ["clipboardRead", "clipboardWrite", "activeTab", "storage", "tabs", "commands", "scripting"],
+    "icons": {
+        "16": "icon2.png",
+        "48": "icon2.png",
+        "128": "icon2.png"
+      },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["https://openrouter.ai/*"],
+    "action": {
+       "default_icon": {
+            "16": "icon.png",
+            "32": "icon.png"
+            },
+      "default_popup": "popup.html"
+    },
+    "commands": {
+      "fetch_ai_response": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+1"
+        },
+        "description": "Fetch AI response and paste it"
+      },
+      "copy_ai_response": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+2"
+        },
+        "description": "Copy AI-generated response to clipboard"
+      }
+    }
+  }
+  
