@@ -11,6 +11,8 @@ copy AI response - Ctrl+Shift+2
 
 You can change the hotkeys from the manifest.json as per need.
 
+create your api key from openrouter and paste it in background.js
+
 AI used here is - DeepSeek "model": "deepseek/deepseek-r1-distill-llama-8b" 
 API used using openrouter.
 
