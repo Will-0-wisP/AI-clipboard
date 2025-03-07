@@ -1,4 +1,4 @@
-const API_KEY = "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"; // Fixed API Key
+const API_KEY = "your-api-key-from-openrouter"; // Fixed API Key
 
 chrome.runtime.onInstalled.addListener(() => {
   console.log("AI Clipboard Assistant Installed");
