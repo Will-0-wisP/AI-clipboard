@@ -1,4 +1,4 @@
-const API_KEY = "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"; // Fixed API Key
+const API_KEY1 = "API_KEY"; // Fixed API Key
 
 chrome.runtime.onInstalled.addListener(() => {
   console.log("AI Clipboard Assistant Installed");
@@ -32,7 +32,7 @@ chrome.commands.onCommand.addListener(async (command) => {
             const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
               method: "POST",
               headers: {
-                "Authorization": `Bearer ${API_KEY}`,
+                "Authorization": `Bearer ${API_KEY1}`,
                 "Content-Type": "application/json"
               },
               body: JSON.stringify({
