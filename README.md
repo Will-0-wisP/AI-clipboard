@@ -18,6 +18,6 @@ API used using openrouter.
 
 Get this personilised AI clipboard for you browser and have fun.
 
-![image](https://github.com/user-attachments/assets/cf704c92-ef70-4a54-a6fb-a7cfcd213dcd)
 
+![image](https://github.com/user-attachments/assets/0f8fb55a-d4d5-4313-b0d9-a09903ec29b8)
 
